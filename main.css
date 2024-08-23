@@ -105,3 +105,9 @@ button {
 .js {
   background-color: #f7e118d0;
 }
+
+.code {
+  background-color: #4a4a4a; /* Light background color */
+  padding: 5px;             /* Optional: add some padding */
+  border-radius: 25px;      /* Optional: add rounded corners */
+}
