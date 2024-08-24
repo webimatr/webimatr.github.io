@@ -3,71 +3,91 @@
 
 /* Global Styles */
 body {
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.6;
-  color: #f0f0f0;
-  background-color: #1a1a1a;
-  margin: 0;
-  padding: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #f0f0f0;
+    background-color: #1a1a1a;
+    margin: 0;
+    padding: 0;
 }
 
 /* Header Styles */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #333;
-  padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 1em;
 }
 
 .logo img {
-  width: 200px;
-  height: auto;
+    width: 200px;
+    height: auto;
 }
 
 /* Top Navigation Styles */
 .topnav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .topnav button {
-  margin: 0 10px;
+    margin: 0 10px;
 }
 
 /* Button Styles */
 button {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1em;
-  padding: 0.5em 1em;
-  border: none;
-  border-radius: 10000px;
-  background-color: #00c8ffcc;
-  color: #f0f0f0;
-  font-weight: 700;
-  cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
 }
 
 .copy {
-  background-color: #09ff00a8;
+    background-color: #09ff00a8;
 }
 
 .html {
-  background-color: #E44D26;
+    background-color: #E44D26;
 }
 
 .css {
-  background-color: #1572B6;
+    background-color: #1572B6;
 }
 
 .js {
-  background-color: #f7e118d0;
+    background-color: #f7e118d0;
+}
+
+/* Content Styles */
+.content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+textarea {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
 .code {
-  background-color: #4a4a4a;
-  padding: 5px;
-  border-radius: 25px;
+    background-color: #4a4a4a;
+    color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
 }
