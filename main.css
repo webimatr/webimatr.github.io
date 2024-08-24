@@ -6,81 +6,35 @@ body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
   color: #f0f0f0;
-  /* Light text color for contrast */
   background-color: #1a1a1a;
-  /* Dark background color */
   margin: 0;
   padding: 0;
 }
 
-/* Heading Styles */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Roboto', sans-serif;
-  color: #e0e0e0;
-  /* Slightly lighter color for headings */
-  margin-top: 0;
-  margin-bottom: 0.5em;
-}
-
-/* Paragraph Styles */
-p {
-  margin: 0 0 1em 0;
-}
-
-/* Link Styles */
-a {
-  color: #1a73e8;
-  /* Bright color for links */
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* Container Styles */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1em;
-}
-
-/* Header and Footer Styles */
-header,
-footer {
-  background: #333;
-  /* Darker background for header/footer */
-  padding: 1em 0;
-}
-
-header h1,
-footer h1 {
-  font-size: 1.5em;
-  margin: 0;
-}
-
-/* Navigation Styles */
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 1em;
-}
-
-/* Button Container Styles */
-.button-container {
+/* Header Styles */
+header {
   display: flex;
-  justify-content: space-between; /* Space out buttons */
+  justify-content: space-between;
   align-items: center;
-  margin: 20px 0; /* Add some margin for spacing */
+  background: #333;
+  padding: 1em;
+}
+
+.logo img {
+  width: 200px;
+  height: auto;
+}
+
+/* Top Navigation Styles */
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.topnav button {
+  margin: 0 10px;
 }
 
 /* Button Styles */
@@ -91,10 +45,8 @@ button {
   border: none;
   border-radius: 10000px;
   background-color: #00c8ffcc;
-  /* Dark background for buttons */
   color: #f0f0f0;
   font-weight: 700;
-  /* Light text color on buttons */
   cursor: pointer;
 }
 
@@ -108,15 +60,20 @@ button {
 
 .css {
   background-color: #1572B6;
-  align-items: center !important;
 }
 
 .js {
   background-color: #f7e118d0;
 }
 
+/* Content Styles */
+.content {
+  text-align: center;
+  margin-top: 20px;
+}
+
 code {
-  background-color: #4a4a4a; /* Light background color */
-  padding: 5px;             /* Optional: add some padding */
-  border-radius: 25px;      /* Optional: add rounded corners */
+  background-color: #4a4a4a;
+  padding: 5px;
+  border-radius: 25px;
 }
