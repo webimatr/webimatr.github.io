@@ -45,3 +45,10 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+.css {
+    transition: background-color 0.3s ease;
+}
+.css:hover {
+    background-color: #264de4;
+}
