@@ -100,13 +100,14 @@ button {
 
 .css {
   background-color: #1572B6;
+  align-items: center !important;
 }
 
 .js {
   background-color: #f7e118d0;
 }
 
-.code {
+code {
   background-color: #4a4a4a; /* Light background color */
   padding: 5px;             /* Optional: add some padding */
   border-radius: 25px;      /* Optional: add rounded corners */
