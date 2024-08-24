@@ -1,39 +1,44 @@
 <!DOCTYPE html>
-<html>
-  <link rel="icon" href="../assets/Webimatr Logo 2.png" type="image/x-icon">
-  <link rel='stylesheet' type='text/css' media='screen' href='../main.css'>
-  <script src="../script.js"></script>
-  <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webimatr</title>
-    <center>
-    <img src="../assets/Webimatr Logo Text.png" width="400" height="auto">
-      <be>
-    <h3><i>"Code Smarter, Not Harder"</i></h3>
-    </center>
-    <button class="html">HTML</button>
-    <button class="css">CSS</button>
-    <button class="js">JavaScript</button>
-  </head>
-  <br>
-    <br>
-To make a basic homepage, you should (make your website, obviously) and make a new page called 'index.html' and make sure that specifically, otherwise
-people will have to manually go to that page (ex: making your 'index.html' will automatically lead you to https://exmaple.com/index.html (or more commonly 
-https://example.com) but if you put it as something else (like home.html) users will get a 404 error since your web host is looking for an "index.html"
-not a "home.html".
-
-After that, use this code for an example:
-<textarea id="scriptText" rows="10" cols="50" class="code">
-  <!DOCTYPE html>
-  <html>
-    <link rel="icon" href="" type="image/x-icon">
-    <head>
-      <title>My Amazing Website</title>
-      <h1>My Amazing Website</h1>
-      Welcome to My Amazing Website!
-      <footer>(c) 2024, My Amazing Website</footer>
-    </head>
-  </html>
-</textarea>
-  <button class="copy" id="copyButton"><i class="fas fa-clipboard"></i> Copy to Clipboard</button>
+    <link rel="icon" href="../assets/Webimatr Logo 2.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../main.css">
+    <script src="../script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../assets/Webimatr Logo Text.png" alt="Webimatr Logo" width="200" height="auto">
+        </div>
+        <nav class="topnav">
+            <button class="html">HTML</button>
+            <button class="css">CSS</button>
+            <button class="js">JavaScript</button>
+        </nav>
+    </header>
+    
+    <div class="content">
+        <h3><i>"Code Smarter, Not Harder"</i></h3>
+        <p>To make a basic homepage, you should create a new page called 'index.html'. This ensures that users will be directed to your homepage automatically. If you name it something else, like 'home.html', users might encounter a 404 error.</p>
+        <p>Use the following code as an example:</p>
+        <textarea id="scriptText" rows="10" cols="50" class="code">
+            <!DOCTYPE html>
+            <html>
+                <head>
+                    <title>My Amazing Website</title>
+                </head>
+                <body>
+                    <h1>My Amazing Website</h1>
+                    <p>Welcome to My Amazing Website!</p>
+                    <footer>(c) 2024, My Amazing Website</footer>
+                </body>
+            </html>
+        </textarea>
+        <button class="copy" id="copyButton"><i class="fas fa-clipboard"></i> Copy to Clipboard</button>
+    </div>
+</body>
 </html>
