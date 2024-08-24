@@ -75,6 +75,14 @@ nav ul li {
   margin-right: 1em;
 }
 
+/* Button Container Styles */
+.button-container {
+  display: flex;
+  justify-content: space-between; /* Space out buttons */
+  align-items: center;
+  margin: 20px 0; /* Add some margin for spacing */
+}
+
 /* Button Styles */
 button {
   font-family: 'Roboto', sans-serif;
