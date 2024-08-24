@@ -1,25 +1,14 @@
-function copyCode() {
-    // Get the code element
-    var codeElement = document.getElementById('code');
+document.getElementById('copyButton').addEventListener('click', function() {
+    // Get the text area element
+    var textArea = document.getElementById('scriptText');
 
-    // Create a range object
-    var range = document.createRange();
-    range.selectNode(codeElement);
+    // Select the text
+    textArea.select();
+    textArea.setSelectionRange(0, 99999); // For mobile devices
 
-    // Remove any existing selection
-    window.getSelection().removeAllRanges();
+    // Copy the text to the clipboard
+    document.execCommand('copy');
 
-    // Add the range to the selection
-    window.getSelection().addRange(range);
-
-    try {
-      // Copy the selected text
-      document.execCommand('copy');
-      alert('Code copied to clipboard!');
-    } catch (err) {
-      console.error('Failed to copy code: ', err);
-    }
-
-    // Clear the selection
-    window.getSelection().removeAllRanges();
-  }
+    // Alert the user that the text has been copied
+    alert('Text copied to clipboard!');
+});
