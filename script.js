@@ -12,3 +12,4 @@ document.getElementById('copyButton').addEventListener('click', function() {
     // Alert the user that the text has been copied
     alert('Text copied to clipboard!');
 });
+
