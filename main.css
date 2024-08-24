@@ -52,3 +52,17 @@ footer {
 .css:hover {
     background-color: #264de4;
 }
+
+.html {
+    transition: background-color 0.3s ease;
+}
+.html:hover {
+    background-color: #e34c26;
+}
+
+.js {
+    transition: background-color 0.3s ease;
+}
+.js:hover {
+    background-color: #f0db4f;
+}
